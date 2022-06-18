@@ -290,3 +290,7 @@ Route::get('/');
 Route::get('/admin',function (){
     echo "hello to admin page";
 })->middleware('isAdmin:نویسنده');
+
+//
+//یک تغییر ایجاد میکنیمبرای تست گیت هاب
+//تغییرات
